@@ -29,4 +29,4 @@ const GitHub = React.createClass({
     }
 })
 
-module.exports = GitHub;
+export default GitHub

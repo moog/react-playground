@@ -3,16 +3,16 @@ import GitHubUser from '../services/GitHubUser'
 
 const SearchUser = React.createClass({
     handleSubmit: function(e) {
-        e.preventDefault();
+        e.preventDefault()
 
         GitHubUser.getByUsername(this.refs.username.value)
             .then(function(response) {
                 this.props.updateUser(response.data)
-            }.bind(this));
+            }.bind(this))
         GitHubUser.getReposByUsername(this.refs.username.value)
             .then(function(response) {
                 this.props.updateRepos(response.data)
-            }.bind(this));
+            }.bind(this))
     },
     render: function() {
         return (
@@ -46,4 +46,4 @@ SearchUser.propTypes = {
     updateRepos: React.PropTypes.func.isRequired
 }
 
-module.exports = SearchUser;
+export default SearchUser

@@ -21435,6 +21435,10 @@
 
 	'use strict';
 
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
 	var _react = __webpack_require__(1);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -21477,13 +21481,17 @@
 	    }
 	});
 
-	module.exports = GitHub;
+	exports.default = GitHub;
 
 /***/ },
 /* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
 
 	var _react = __webpack_require__(1);
 
@@ -21556,13 +21564,17 @@
 	    updateRepos: _react2.default.PropTypes.func.isRequired
 	};
 
-	module.exports = SearchUser;
+	exports.default = SearchUser;
 
 /***/ },
 /* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
 
 	var _axios = __webpack_require__(175);
 
@@ -21579,7 +21591,7 @@
 	    }
 	};
 
-	module.exports = GitHubUser;
+	exports.default = GitHubUser;
 
 /***/ },
 /* 175 */
@@ -23068,6 +23080,10 @@
 
 	'use strict';
 
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
 	var _react = __webpack_require__(1);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -23108,13 +23124,17 @@
 	    repos: _react2.default.PropTypes.array
 	};
 
-	module.exports = UserProfile;
+	exports.default = UserProfile;
 
 /***/ },
 /* 201 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
 
 	var _react = __webpack_require__(1);
 
@@ -23176,13 +23196,17 @@
 	    user: _react2.default.PropTypes.object
 	};
 
-	module.exports = UserInfo;
+	exports.default = UserInfo;
 
 /***/ },
 /* 202 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
 
 	var _react = __webpack_require__(1);
 
@@ -23256,7 +23280,7 @@
 	    repos: _react2.default.PropTypes.array
 	};
 
-	module.exports = UserRepos;
+	exports.default = UserRepos;
 
 /***/ }
 /******/ ]);

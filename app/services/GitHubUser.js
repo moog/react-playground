@@ -9,4 +9,4 @@ const GitHubUser = {
     }
 }
 
-module.exports = GitHubUser
+export default GitHubUser

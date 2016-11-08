@@ -7,7 +7,7 @@ const UserRepos = React.createClass({
                 <div key={i} className="thumbnail">
                     <div className="caption">
                         <h3>
-                            {repo.name} 
+                            {repo.name}
                             <span className="badge">{repo.stargazers_count}</span>
                         </h3>
                         <p>{repo.description}</p>
@@ -41,4 +41,4 @@ UserRepos.propTypes = {
     repos: React.PropTypes.array
 }
 
-module.exports = UserRepos
+export default UserRepos

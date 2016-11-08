@@ -2,7 +2,7 @@ import React from 'react'
 
 const UserInfo = React.createClass({
     render: function() {
-        var html = this.props.user ? (
+        const html = this.props.user ? (
             <div>
                 <img
                     className="img-circle"
@@ -36,4 +36,4 @@ UserInfo.propTypes = {
     user: React.PropTypes.object
 }
 
-module.exports = UserInfo
+export default UserInfo

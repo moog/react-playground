@@ -22,4 +22,4 @@ UserProfile.propTypes = {
     repos: React.PropTypes.array
 }
 
-module.exports = UserProfile
+export default UserProfile
